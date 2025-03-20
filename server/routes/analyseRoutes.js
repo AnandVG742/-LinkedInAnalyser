@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const scrapeProfile = require('../scraper/scrapeProfile');
+const scrapeProfile = require('../scraper/ProfileScrape');
 
 router.post('/analyze', async (req, res) => {
   const { url } = req.body;
